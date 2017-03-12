@@ -353,6 +353,15 @@ ul {
   /*}*/
   /*portada*/
 
+  .tabla {
+    margin: 50px 20px;
+  }
+
+  .tabla .contenedor {
+    overflow: auto;
+    border: 1px solid #1F313C;
+  }
+
   .titulo {
     font-size: 45px;
     margin-top: 30px;
@@ -497,10 +506,24 @@ ul {
   .portada .button {
     display: block;
     }
-  .footer .button {
+
+  .col1 label {
+    margin-left: 15px;
+  }
+
+   .col1 input {
+    width: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+   }
+
+   .col2 input{
+    width: 290px;
+   }
+  /*.footer .button {
     display: block;
     align-items: stretch;
-  }
+  }*/
   
   .burguer-button {
     display: block;
